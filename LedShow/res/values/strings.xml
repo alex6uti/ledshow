@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">LedShow</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world commit1!</string>
     <string name="menu_settings">Settings</string>
 
 </resources>
