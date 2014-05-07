@@ -1,9 +1,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/menu_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/menu_settings"/>
+        android:id="@+id/menu_fuente"
+        android:showAsAction="always"
+        android:title="@string/menu_fuente"/>
+    
+    <item
+        android:id="@+id/menu_efecto"
+        android:showAsAction="always"
+        android:title="@string/menu_efecto"/>
+    
+    <item
+        android:id="@+id/menu_direccion"
+        android:showAsAction="always"
+        android:title="@string/menu_direccion"/>
 
 </menu>

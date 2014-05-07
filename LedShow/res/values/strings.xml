@@ -2,7 +2,21 @@
 <resources>
 
     <string name="app_name">LedShow</string>
-    <string name="hello_world">Hello world commit1!</string>
-    <string name="menu_settings">Settings</string>
+    
+    <string name="tv_texto">Texto a desplegar:</string>
+   	<string name="tv_estilo">Estilo:</string>
+    <string name="tv_tamano">tamano:</string>
+    
+    <string name="btn_estilos">Ejemplo estilo de fuente</string>
+    
+    <string name="rb_size1">Pequeno</string>
+    <string name="rb_size2">Mediano</string>
+    <string name="rb_size3">Grande</string>
+    
+    <string name="menu_fuente">Fuente</string>
+    <string name="menu_efecto">Efecto</string>
+    <string name="menu_direccion">Direccion</string>
+    
+    <string name="title_activity_fuentes">FuentesActivity</string>
 
 </resources>
