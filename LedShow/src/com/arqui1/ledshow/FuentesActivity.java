@@ -71,13 +71,9 @@ public class FuentesActivity extends Activity implements OnClickListener {
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int whichButton) {
 
-						// ListView LiView =
-						// ((AlertDialog)dialog).getListView();
 						int checkedItem = ((AlertDialog) dialog).getListView()
 								.getCheckedItemPosition();
 						posicionFuente = checkedItem;
-						System.out.println("########>>>>>>>>>>>>>"
-								+ checkedItem + ".");
 						cambiarFuente();
 					}
 				}); // fin de alert.setPositiveButton

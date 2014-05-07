@@ -25,11 +25,18 @@
         </activity>
         <activity
             android:name="com.arqui1.ledshow.FuentesActivity"
-            android:label="@string/title_activity_fuentes" >
+            android:label="@string/title_activity_fuentes" 
+            android:uiOptions="splitActionBarWhenNarrow">
         </activity>
         <activity
             android:name="com.arqui1.ledshow.FondoSolidoActivity"
-            android:label="@string/title_activity_fondo_solido" >
+            android:label="@string/title_activity_fondo_solido" 
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:name="com.arqui1.ledshow.FondoParpadeanteActivity"
+            android:label="@string/title_activity_fondo_parpadeante" 
+            android:uiOptions="splitActionBarWhenNarrow">
         </activity>
     </application>
 

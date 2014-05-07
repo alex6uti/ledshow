@@ -1,5 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    
+    <item
+        android:id="@+id/menu_fuente_cancelar"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_remove"
+        android:title="@string/menu_cancelar">
+        
+    </item>
+    <item
+        android:id="@+id/menu_fuente_guardar"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_save"
+        android:title="@string/menu_guardar">
+    </item>
 
 </menu>

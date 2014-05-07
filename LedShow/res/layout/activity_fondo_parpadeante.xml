@@ -2,14 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".FondoSolidoActivity" >
+    tools:context=".FondoParpadeanteActivity" 
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tv_color_fondo"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_fondo_color"
+        android:text="@string/tv_fondo1_color"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <LinearLayout
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content" >
 
         <ToggleButton
-            android:id="@+id/tb_1"
+            android:id="@+id/tb_f1_1"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
@@ -25,15 +25,7 @@
             android:layout_weight="0.25" />
 
         <ToggleButton
-            android:id="@+id/tb_2"
-            android:textOn="ON"
-            android:textOff="OFF"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.25" />
-
-        <ToggleButton
-            android:id="@+id/tb_3"
+            android:id="@+id/tb_f1_2"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
@@ -41,7 +33,60 @@
             android:layout_weight="0.25"/>
 
         <ToggleButton
-            android:id="@+id/tb_4"
+            android:id="@+id/tb_f1_3"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25" />
+
+        <ToggleButton
+            android:id="@+id/tb_f1_4"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_fondo2_color"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/tb_f2_1"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"/>
+
+        <ToggleButton
+            android:id="@+id/tb_f2_2"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"/>
+
+        <ToggleButton
+            android:id="@+id/tb_f2_3"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"/>
+
+        <ToggleButton
+            android:id="@+id/tb_f2_4"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
@@ -51,7 +96,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tv_color_texto"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv_texto_color"
@@ -62,40 +107,37 @@
         android:layout_height="wrap_content" >
 
         <ToggleButton
-            android:id="@+id/tb_5"
+            android:id="@+id/tb_f3_1"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25"
-             />
+            android:layout_weight="0.25"/>
 
         <ToggleButton
-            android:id="@+id/tb_6"
+            android:id="@+id/tb_f3_2"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25"
-             />
+            android:layout_weight="0.25"/>
 
         <ToggleButton
-            android:id="@+id/tb_7"
+            android:id="@+id/tb_f3_3"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25"
-             />
+            android:layout_weight="0.25" />
 
         <ToggleButton
-            android:id="@+id/tb_8"
+            android:id="@+id/tb_f3_4"
             android:textOn="ON"
             android:textOff="OFF"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25"
-             />
-        
+            android:layout_weight="0.25" />
+
     </LinearLayout>
+
 </LinearLayout>
