@@ -29,7 +29,19 @@ public class MainActivity extends Activity {
 		case R.id.menu_fuente:
 			this.lanzarActividadFuentes();
 			return true;
-		case R.id.menu_efecto:
+		case R.id.menu_fClaro_tOscuro:
+			System.out.println("menu_fClaro_tOscuro");
+			Intent intent = new Intent(getApplicationContext(), FondoSolidoActivity.class);
+			startActivity(intent);
+			return true;
+		case R.id.menu_fOscuro_tClaro:
+			System.out.println("menu_fOscuro_tClaro");
+			return true;
+		case R.id.menu_fParpadeante_tClaro:
+			System.out.println("menu_fParpadeante_tClaro");
+			return true;
+		case R.id.menu_fParpadeante_tOscuro:
+			System.out.println("menu_fParpadeante_tOscuro");
 			return true;
 		case R.id.menu_direccion:
 			return true;

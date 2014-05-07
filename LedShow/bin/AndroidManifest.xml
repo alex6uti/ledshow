@@ -27,6 +27,10 @@
             android:name="com.arqui1.ledshow.FuentesActivity"
             android:label="@string/title_activity_fuentes" >
         </activity>
+        <activity
+            android:name="com.arqui1.ledshow.FondoSolidoActivity"
+            android:label="@string/title_activity_fondo_solido" >
+        </activity>
     </application>
 
 </manifest>

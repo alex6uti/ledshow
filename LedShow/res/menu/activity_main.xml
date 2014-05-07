@@ -8,7 +8,14 @@
     <item
         android:id="@+id/menu_efecto"
         android:showAsAction="always"
-        android:title="@string/menu_efecto"/>
+        android:title="@string/menu_efecto">
+        <menu>
+            <item android:id="@+id/menu_fOscuro_tClaro" android:title="@string/menu_fOscuro_tClaro"/>
+            <item android:id="@+id/menu_fClaro_tOscuro" android:title="@string/menu_fClaro_tOscuro"/>
+            <item android:id="@+id/menu_fParpadeante_tOscuro" android:title="@string/menu_fParpadeante_tOscuro"/>
+            <item android:id="@+id/menu_fParpadeante_tClaro" android:title="@string/menu_fParpadeante_tClaro"/>
+        </menu>
+    </item>
     
     <item
         android:id="@+id/menu_direccion"

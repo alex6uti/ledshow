@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -17,10 +17,22 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
-    <style name="login_button_text_appearance">
-    <item name="android:textSize">15dp</item>
-    <item name="android:textColor">#a7a7a7</item>
-    <item name="android:textStyle">bold</item>
-</style>
+    <style name="ejemplo_fuente1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Ejemplo Texto Tipo1</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    
+    <style name="ejemplo_fuente2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Ejemplo Texto Tipo2</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    
+    <style name="ejemplo_fuente3">
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Ejemplo Texto Tipo3</item>
+        <item name="android:typeface">monospace</item>
+    </style>
 
 </resources>
